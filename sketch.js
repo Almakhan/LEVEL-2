@@ -99,7 +99,7 @@ robot.velocityY = robot.velocityY + 1.0
       robot.collide(standGroup)
       robot.collide(stand1Group)
       
-  if(frameCount%100===0){
+  if(frameCount%1000===0){
     mars=createSprite(1200,250,20,20)
     mars.addImage(marsImg)
     mars.scale=0.05
